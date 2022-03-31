@@ -1,0 +1,51 @@
+/* Write your code here. */
+.app-container {
+  background-color: #1d976c;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  margin-left: 60px;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.input-label {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.text-input {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  color: white;
+  font-family: 'roboto';
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.letters-button {
+  background-color: white;
+  color: #219a6f;
+  width: 300px;
+  height: 60px;
+  font-family: 'roboto';
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 15px 30px 10px 70px;
+}
